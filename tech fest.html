@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+        <FORM ACTION="/FORMBACKEND.HTML"></FORM>
+
+    <label> NAME :</label>
+    <input name="text"type="text" PLACEHOLDER="Enter your name" required><br><br>
+    <label>Age:</label>
+    <input type="number" min="17" max="27" pattern="^[d]{10}"><br><br>
+    <label>ADDRESS:</label>
+    <textarea rows="10" cols="50"></textarea><br><br>
+    <label>Mobile Number:</label>
+    <input name="number" type="tel"required><br><br>
+    <label>EMAIL</label>
+    <input NAME="mail" type="email"required><br><br>
+    <label>GENDER:</label>
+    <input name="text" type="radio"required>MALE<br><br>
+    <input name="text" type="radio"required>FEMALE<br><br>
+    <input name="text" type="radio"required>OTHERS<br><br>
+    <label>DOB:</label>
+    <input name="number" type="date"required><br><br>
+    <label>EVENT:</label>
+    <select>
+        <option>Hackathon</option>
+        <option>Treasure hunt</option>
+        <option>Webinar</option>
+        <option>Workshop</option>
+
+    </select><br><br>
+    <label>UPLOAD PASSPORT SIZE PHOTO</label>
+    <input name="TEXT" type="file" accept="image/*"><br><br>
+    <label>DECLARATION:I agree the above T&C</label>
+    <input name="TEXT" type="checkbox"required><br><br>
+
+    <input type="submit" value="register"f>
+
+
+    
+</body>
+</html>
